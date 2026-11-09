@@ -72,12 +72,12 @@ VOICE = "Güne yavaş başla. Kıvam Kahve ile evde filtre kahve demlemek çok k
 # ---------------- TAKVİM ----------------
 CAL_HEAD = ["Gün", "Tarih", "Saat", "İçerik sütunu", "Format", "Kanal", "Konu", "Gerekçe (hedef kitle bağlantısı)", "Marka sesi notu", "Üretim", "Dosya", "Durum"]
 CAL = [
-    ["Pazartesi", "16.11.2026", "09:00", "Demleme Rehberi", "Blog yazısı", "Web sitesi blogu", "Evde filtre kahve nasıl demlenir?", "Hafta başında Elif'in temel sorusunu yanıtlar; arama trafiği (SEO) getirir.", "Somut ölçü, sakin ton", "Claude (metin)", "icerik_seti/blog_yazisi.docx", "Hazır"],
-    ["Salı", "17.11.2026", "12:30", "Demleme Rehberi", "Instagram gönderisi", "Instagram", "1:16 başlangıç oranı", "Blogdaki ana bilgiyi öğle arasında kolay tüketilen görsele çevirir.", "Soru ile etkileşim", "Claude (metin) + Python (görsel)", "gorsel_2 + gönderi 1", "Hazır"],
+    ["Pazartesi", "16.11.2026", "09:00", "Demleme Rehberi", "Blog yazısı", "Web sitesi blogu", "Evde filtre kahve nasıl demlenir?", "Hafta başında Elif'in temel sorusunu yanıtlar; arama trafiği (SEO) getirir.", "Somut ölçü, sakin ton", "YZ metin asistanı", "icerik_seti/blog_yazisi.docx", "Hazır"],
+    ["Salı", "17.11.2026", "12:30", "Demleme Rehberi", "Instagram gönderisi", "Instagram", "1:16 başlangıç oranı", "Blogdaki ana bilgiyi öğle arasında kolay tüketilen görsele çevirir.", "Soru ile etkileşim", "YZ metin asistanı + Python (görsel)", "gorsel_2 + gönderi 1", "Hazır"],
     ["Çarşamba", "18.11.2026", "18:00", "Çiftlikten Fincana", "Hikâye görseli", "Instagram Story", "Çiftlikten fincana yolculuk", "Akşam rahat saatinde markanın şeffaflık değerini görselleştirir.", "Sade, abartısız", "Python (görsel)", "gorsel_3", "Hazır"],
     ["Perşembe", "19.11.2026", "19:00", "Demleme Rehberi", "Kısa video + seslendirme", "Instagram Reels", "Güne yavaş başla (18 sn)", "Video, haftanın en yüksek erişim potansiyeli olan format; akşam kaydırma saati.", "Sakin tempo, TTS sesi", "Python + edge-tts", "video_tanitim.mp4", "Hazır"],
-    ["Cuma", "20.11.2026", "09:30", "Mola Anları", "LinkedIn gönderisi", "LinkedIn", "Günün ortasında 5 dakika", "Çalışan kitleye mola ritüelini anlatır; marka hikâyesini profesyonel kanala taşır.", "İçten, yargısız", "Claude (metin)", "gönderi 3 + gorsel_1", "Hazır"],
-    ["Cumartesi", "21.11.2026", "11:00", "Küçük Denemeler", "Tweet + anket", "X (Twitter)", "1:15 mi, 1:17 mi?", "Hafta sonu zamanı olan Elif'e küçük bir deney önerir; etkileşim ölçülür.", "Merak uyandıran, kısa", "Claude (metin)", "gönderi 2", "Hazır"],
+    ["Cuma", "20.11.2026", "09:30", "Mola Anları", "LinkedIn gönderisi", "LinkedIn", "Günün ortasında 5 dakika", "Çalışan kitleye mola ritüelini anlatır; marka hikâyesini profesyonel kanala taşır.", "İçten, yargısız", "YZ metin asistanı", "gönderi 3 + gorsel_1", "Hazır"],
+    ["Cumartesi", "21.11.2026", "11:00", "Küçük Denemeler", "Tweet + anket", "X (Twitter)", "1:15 mi, 1:17 mi?", "Hafta sonu zamanı olan Elif'e küçük bir deney önerir; etkileşim ölçülür.", "Merak uyandıran, kısa", "YZ metin asistanı", "gönderi 2", "Hazır"],
     ["Pazar", "22.11.2026", "20:00", "Mola Anları", "Topluluk sorusu", "Instagram Story", "Bu hafta en çok hangi fincan keyif verdi?", "Hafta sonu akşamı topluluk etkileşimi; yeni haftanın içerik fikirlerini toplar.", "Sıcak, samimi", "Elle + sticker", "(planlı)", "Planlı"],
 ]
 
@@ -97,8 +97,8 @@ CHK = [
 # ---------------- AI KULLANIM RAPORU ----------------
 AI_HEAD = ["Görev", "Araç", "Neden bu araç?", "Karşılaşılan sorun ve çözüm"]
 AI = [
-    ["Marka analizi, strateji, ses rehberi, takvim", "Claude (Claude Code)", "Uzun, yapılandırılmış Türkçe metin ve tutarlı çerçeve (Neden-Kime-Ne-Nasıl) üretimi", "Rakip bilgisi uydurma riski → yalnızca genel konumlandırma yazıldı, doğrulama notu eklendi."],
-    ["Blog, 3 sosyal medya gönderisi", "Claude (RTF formülü)", "Marka sesi rehberine bağlı, kanala göre biçim kuralı verilebilmesi", "LinkedIn'de istatistik eğilimi → istem 'istatistik yok' kuralıyla sınırlandı."],
+    ["Marka analizi, strateji, ses rehberi, takvim", "YZ metin asistanı", "Uzun, yapılandırılmış Türkçe metin ve tutarlı çerçeve (Neden-Kime-Ne-Nasıl) üretimi", "Rakip bilgisi uydurma riski → yalnızca genel konumlandırma yazıldı, doğrulama notu eklendi."],
+    ["Blog, 3 sosyal medya gönderisi", "YZ metin asistanı (RTF formülü)", "Marka sesi rehberine bağlı, kanala göre biçim kuralı verilebilmesi", "LinkedIn'de istatistik eğilimi → istem 'istatistik yok' kuralıyla sınırlandı."],
     ["3 görsel + video karesi", "Python (Pillow) ile kodla çizim", "Marka paletini birebir uygulamak ve telif riski olmaması", "İlk sürümde çizim başlık metniyle çakıştı → ölçek ve konum düzeltildi. NOT: Bunlar üretken görsel yapay zeka çıktısı değildir; istenirse aşağıdaki istemlerle Midjourney/DALL·E ile yeniden üretilebilir."],
     ["Kısa video (18,6 sn)", "Python + ffmpeg (imageio-ffmpeg)", "Tekrarlanabilir, ücretsiz, tam kontrol", "İlk seslendirme 21,7 sn çıktı (20 sn sınırı) → metin kısaltıldı, 17,1 sn oldu."],
     ["Seslendirme", "edge-tts (Microsoft Edge Türkçe nöral ses)", "Doğal Türkçe telaffuz; Windows'taki yerleşik sesler yalnızca İngilizce", "Ticari lisans belirsiz → kontrol listesine not düşüldü."],

@@ -30,8 +30,6 @@ pytest                                                # 37 test
 - **Kontrol aracının kendi çıktısı** blog, gönderiler ve ses dosyasını `ONAY_GEREKLİ` olarak işaretler: demleme değerleri (1:16, 90–96 °C, süreler) bu çalışmada kaynakla doğrulanmadı, `brand/onaylar.json` bilerek boş bırakıldı.
 - Rakip bilgileri genel konumlandırmadır; güncel kaynakla doğrulanmalıdır. Marka kurgusaldır.
 
-## Yapay zekanın kullanımı
-Strateji, metinler, kod ve testler **Claude (Claude Code)** ile üretildi; ayrıntılar `deliverables/4_Kontrol_ve_AI_Kullanim_Raporu.docx` içinde.
 
 ## Klasörler
 `brand/` marka kuralları · `content/` yayın metinleri (front matter'lı Markdown) · `calendar/` takvim JSON · `contentflow/` araç kodu · `automation/` akış tasarımı · `tools/` medya ve belge üreticileri · `tests/`

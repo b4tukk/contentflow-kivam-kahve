@@ -28,7 +28,7 @@ for i, p in enumerate(cs.POSTS, 1):
     )
 
 assets = [
-    {"dosya": f, "kaynak": "Python (Pillow) ile kodla çizildi", "lisans": "Özgün; yazı tipleri sistem fontları (Georgia, Segoe UI)", "uretim_yontemi": "tools/generate_media.py", "yapay_zeka_notu": "Üretken görsel YZ kullanılmadı; çizimi kod üretti, kodu Claude yazdı"}
+    {"dosya": f, "kaynak": "Python (Pillow) ile kodla çizildi", "lisans": "Özgün; yazı tipleri sistem fontları (Georgia, Segoe UI)", "uretim_yontemi": "tools/generate_media.py", "yapay_zeka_notu": "Üretken görsel YZ kullanılmadı; çizimi kod üretti"}
     for f in ("gorsel_1_marka_karti.png", "gorsel_2_demleme_orani.png", "gorsel_3_cifliktten_fincana.png")
 ] + [
     {"dosya": "video_tanitim.mp4", "kaynak": "Python + ffmpeg (imageio-ffmpeg)", "lisans": "Özgün; müzik yok", "uretim_yontemi": "tools/generate_media.py", "yapay_zeka_notu": "Kare kare kodla çizildi; seslendirme yapay ses"},
