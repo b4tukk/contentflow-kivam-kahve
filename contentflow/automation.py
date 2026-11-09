@@ -21,6 +21,17 @@ def onaylari_yukle(yol: pathlib.Path | None = None) -> dict:
     return json.loads(pathlib.Path(yol).read_text(encoding="utf-8")) if pathlib.Path(yol).exists() else {}
 
 
+def karar_ver(sonuc, onaylar: dict) -> tuple[str, str | None]:
+    """(karar, onaylayan). Uyarılar yalnızca adı, tarihi ve kapsamı olan insan onayıyla geçer."""
+    if sonuc.durum != "ONAY_GEREKLİ":
+        return sonuc.durum, None
+    o = onaylar.get(sonuc.dosya, {})
+    uyari_alanlari = {b.alan for b in sonuc.bulgular if b.seviye == "uyarı"}
+    if o.get("onaylayan") and o.get("tarih") and uyari_alanlari <= set(o.get("kapsam", [])):
+        return "GEÇTİ", o["onaylayan"]
+    return sonuc.durum, None
+
+
 def pipeline_calistir(icerik_klasoru: pathlib.Path, cikti: pathlib.Path, onaylar: dict | None = None) -> list[dict]:
     """Her içerik için kontrol çalıştırır; karara göre kuyruğa alır, onaya yollar veya reddeder.
 
@@ -36,12 +47,10 @@ def pipeline_calistir(icerik_klasoru: pathlib.Path, cikti: pathlib.Path, onaylar
         meta, govde = checker.icerik_oku(yol)
         s = checker.kontrol_et(yol, marka)
         kayit = {"dosya": yol.name, "kanal": meta.get("kanal"), "karar": s.durum, "planlanan": planlanan_zaman(meta)}
-        if s.durum == "ONAY_GEREKLİ":
-            o = onaylar.get(yol.name, {})
-            uyari_alanlari = {b.alan for b in s.bulgular if b.seviye == "uyarı"}
-            if o.get("onaylayan") and o.get("tarih") and uyari_alanlari <= set(o.get("kapsam", [])):
-                kayit["karar"] = "GEÇTİ"
-                kayit["onaylayan"] = o["onaylayan"]
+        karar, onaylayan = karar_ver(s, onaylar)
+        kayit["karar"] = karar
+        if onaylayan:
+            kayit["onaylayan"] = onaylayan
         if kayit["karar"] == "GEÇTİ":
             if not kayit["planlanan"]:
                 kayit["karar"] = "ONAY_GEREKLİ"

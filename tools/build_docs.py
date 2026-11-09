@@ -213,11 +213,11 @@ ptable(s, ["İçerik", "Marka sesi", "Telif / etik", "Halüsinasyon", "Aksiyon"]
 s = slide("AI kullanım raporu ve prompt kütüphanesi")
 ptable(s, AI_HEAD, AI, .4, 1.4, 12.5, 9, [2.6, 2.3, 3.2, 4.4])
 text(s, .4, 5.5, 12.5, 1.6, [f"{a}: {b[:150]}…" for a, b in PROMPTS[:2]], 10, ESP)
-from contentflow import checker, report as rep
+from contentflow import checker, automation, report as rep
 res = checker.tum_icerigi_kontrol(REPO / "content")
 s = slide("Kontrol katmanı çıktısı (contentflow kontrol)")
-ptable(s, ["İçerik", "Ton", "Anahtar kelime", "Telif", "Kaynak doğrulama", "Karar"], [[r.dosya, *[r.alan_durumu(a) for a in checker.ALANLAR], r.durum] for r in res], .4, 1.4, 12.5, 10, [3.6, 1.4, 1.9, 1.4, 2.3, 1.9])
-text(s, .4, 5.9, 12.5, 1.2, ["Araç gerçek metni tarar; kaynakla doğrulanmamış teknik değerler 'ONAY_GEREKLİ' olarak işaretlenir. İnsan onayı olmadan kuyruğa alınmaz."], 12, SAGE, False)
+ptable(s, ["İçerik", "Ton", "Anahtar kelime", "Telif", "Kaynak doğrulama", "Karar"], [[r.dosya, *[r.alan_durumu(a) for a in checker.ALANLAR], (lambda k, o: k + (f" ({o})" if o else ""))(*automation.karar_ver(r, automation.onaylari_yukle()))] for r in res], .4, 1.4, 12.5, 10, [3.6, 1.4, 1.9, 1.4, 2.3, 1.9])
+text(s, .4, 5.9, 12.5, 1.2, ["Araç gerçek metni tarar; kaynakla doğrulanmamış teknik değerler 'ONAY_GEREKLİ' olarak işaretlenir. İnsan onayı (ad, tarih, kapsam) olmadan kuyruğa alınmaz; onaylar brand/onaylar.json içindedir."], 12, SAGE, False)
 s = slide("Otomasyon ve performans raporu (isteğe bağlı pratikler)")
 text(s, .6, 1.5, 6, 5, ["Tetikleyici → eylem akışı: blog yayını → kontrol → kuyruk; ONAY_GEREKLİ → bildirim; Cuma 09:00 → haftalık rapor", "Gerçek Make/Zapier hesabına bağlı değildir; automation/scenarios.json tasarımı ve contentflow/automation.py yerel simülasyonu vardır", "Performans raporu SİMÜLE veriyle gösterilmiştir; gerçek sonuç değildir"], 14)
 o = rep.ozet(rep.oku(REPO / "data" / "performans_simule.csv")); rep.grafik(o, REPO / "deliverables" / "icerik_seti" / "performans_simule.png")

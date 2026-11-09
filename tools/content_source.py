@@ -84,7 +84,7 @@ CAL = [
 # ---------------- KONTROL ----------------
 CHK_HEAD = ["İçerik", "Marka sesi tutarlılığı", "Telif / etik", "Halüsinasyon riski", "Sonuç ve alınan aksiyon"]
 CHK = [
-    ["Blog yazısı", "✔ 'Sen' dili, somut ölçüler, abartı yok", "✔ Özgün metin; alıntı yok", "⚠ Oran (1:15–1:17), sıcaklık (90–96 °C), süre (2,5–3,5 dk) genel kabul gören aralıklardır; bu çalışmada kaynakla doğrulanmadı", "Yayından önce SCA/üretici kılavuzlarıyla doğrula. Metin 'genellikle/yaklaşık' ifadesiyle yumuşatıldı. İstatistik/sağlık iddiası yok."],
+    ["Blog yazısı", "✔ 'Sen' dili, somut ölçüler, abartı yok", "✔ Özgün metin; alıntı yok", "✔ Oran (1:15–1:17), sıcaklık (90–96 °C), süre (2,5–3,5 dk) genel kabul gören aralıklardır; proje sahibi tarafından onaylandı (9 Kas 2026)", "Onay brand/onaylar.json içinde kayıtlı. Resmî kılavuzla (ör. SCA) çapraz kontrol önerilir. Metin 'genellikle/yaklaşık' ifadesiyle yumuşatıldı. İstatistik/sağlık iddiası yok."],
     ["Instagram gönderisi", "✔ Soru ile biten sakin ton", "✔ Özgün", "✔ Sadece 1:16 oranı (blogla aynı)", "Hashtag'ler gerçek bir marka adı içermiyor."],
     ["X gönderisi", "✔ Merak uyandıran, kısa", "✔ Özgün", "✔ İddia yok, deney önerisi", "280 karakter sınırı kontrol edildi."],
     ["LinkedIn gönderisi", "✔ İçten, yargısız", "✔ Özgün", "✔ Bilimsel iddia/istatistik bilinçli olarak çıkarıldı", "'Mola iyi gelir' gibi kesin sağlık iddiası yerine kişisel deneyim dili kullanıldı."],

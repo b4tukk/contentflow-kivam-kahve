@@ -27,7 +27,7 @@ pytest                                                # 37 test
 ## Dürüstlük notları
 - **Görseller ve video üretken yapay zeka ile değil**, Python (Pillow, ffmpeg) ile kodla çizildi (`tools/generate_media.py`). Eğitmen üretken görsel/video aracı bekliyorsa prompt kütüphanesindeki istemlerle yeniden üretilmelidir.
 - **Seslendirme** Microsoft Edge'in Türkçe yapay sesidir (edge-tts); ticari kullanım koşulları doğrulanmalıdır.
-- **Kontrol aracının kendi çıktısı** blog, gönderiler ve ses dosyasını `ONAY_GEREKLİ` olarak işaretler: demleme değerleri (1:16, 90–96 °C, süreler) bu çalışmada kaynakla doğrulanmadı, `brand/onaylar.json` bilerek boş bırakıldı.
+- **Kontrol aracı** demleme değerlerini (1:16, 90–96 °C, süreler) kaynaksız teknik değer olarak `ONAY_GEREKLİ` işaretler. Bu değerler proje sahibi tarafından 9 Kasım 2026'da onaylandı; onay `brand/onaylar.json` içinde ad, tarih ve kapsamla kayıtlıdır. Ses dosyasının lisans uyarısı onaylanmamıştır ve açıktır.
 - Rakip bilgileri genel konumlandırmadır; güncel kaynakla doğrulanmalıdır. Marka kurgusaldır.
 
 
