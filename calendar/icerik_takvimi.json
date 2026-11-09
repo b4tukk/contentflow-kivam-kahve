@@ -9,7 +9,7 @@
   "konu": "Evde filtre kahve nasıl demlenir?",
   "gerekce": "Hafta başında Elif'in temel sorusunu yanıtlar; arama trafiği (SEO) getirir.",
   "ses_notu": "Somut ölçü, sakin ton",
-  "uretim": "YZ metin asistanı",
+  "uretim": "Claude (metin)",
   "dosya": "icerik_seti/blog_yazisi.docx",
   "durum": "Hazır"
  },
@@ -23,7 +23,7 @@
   "konu": "1:16 başlangıç oranı",
   "gerekce": "Blogdaki ana bilgiyi öğle arasında kolay tüketilen görsele çevirir.",
   "ses_notu": "Soru ile etkileşim",
-  "uretim": "YZ metin asistanı + Python (görsel)",
+  "uretim": "Claude (metin) + Python (görsel)",
   "dosya": "gorsel_2 + gönderi 1",
   "durum": "Hazır"
  },
@@ -65,7 +65,7 @@
   "konu": "Günün ortasında 5 dakika",
   "gerekce": "Çalışan kitleye mola ritüelini anlatır; marka hikâyesini profesyonel kanala taşır.",
   "ses_notu": "İçten, yargısız",
-  "uretim": "YZ metin asistanı",
+  "uretim": "Claude (metin)",
   "dosya": "gönderi 3 + gorsel_1",
   "durum": "Hazır"
  },
@@ -79,7 +79,7 @@
   "konu": "1:15 mi, 1:17 mi?",
   "gerekce": "Hafta sonu zamanı olan Elif'e küçük bir deney önerir; etkileşim ölçülür.",
   "ses_notu": "Merak uyandıran, kısa",
-  "uretim": "YZ metin asistanı",
+  "uretim": "Claude (metin)",
   "dosya": "gönderi 2",
   "durum": "Hazır"
  },
