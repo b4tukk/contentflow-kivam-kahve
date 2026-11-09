@@ -1,0 +1,37 @@
+[
+  {
+    "dosya": "gorsel_1_marka_karti.png",
+    "kaynak": "Python (Pillow) ile kodla çizildi",
+    "lisans": "Özgün; yazı tipleri sistem fontları (Georgia, Segoe UI)",
+    "uretim_yontemi": "tools/generate_media.py",
+    "yapay_zeka_notu": "Üretken görsel YZ kullanılmadı; çizimi kod üretti, kodu Claude yazdı"
+  },
+  {
+    "dosya": "gorsel_2_demleme_orani.png",
+    "kaynak": "Python (Pillow) ile kodla çizildi",
+    "lisans": "Özgün; yazı tipleri sistem fontları (Georgia, Segoe UI)",
+    "uretim_yontemi": "tools/generate_media.py",
+    "yapay_zeka_notu": "Üretken görsel YZ kullanılmadı; çizimi kod üretti, kodu Claude yazdı"
+  },
+  {
+    "dosya": "gorsel_3_cifliktten_fincana.png",
+    "kaynak": "Python (Pillow) ile kodla çizildi",
+    "lisans": "Özgün; yazı tipleri sistem fontları (Georgia, Segoe UI)",
+    "uretim_yontemi": "tools/generate_media.py",
+    "yapay_zeka_notu": "Üretken görsel YZ kullanılmadı; çizimi kod üretti, kodu Claude yazdı"
+  },
+  {
+    "dosya": "video_tanitim.mp4",
+    "kaynak": "Python + ffmpeg (imageio-ffmpeg)",
+    "lisans": "Özgün; müzik yok",
+    "uretim_yontemi": "tools/generate_media.py",
+    "yapay_zeka_notu": "Kare kare kodla çizildi; seslendirme yapay ses"
+  },
+  {
+    "dosya": "seslendirme.mp3",
+    "kaynak": "edge-tts (Microsoft Edge Türkçe nöral ses, tr-TR-EmelNeural)",
+    "lisans": "Ticari kullanım koşulları doğrulanmalı",
+    "uretim_yontemi": "tools/generate_media.py",
+    "yapay_zeka_notu": "Yapay ses; gerçek kişi sesi taklit edilmedi"
+  }
+]

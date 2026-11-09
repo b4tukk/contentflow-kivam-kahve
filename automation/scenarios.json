@@ -1,0 +1,15 @@
+{
+  "aciklama": "Make/Zapier mantığında tetikleyici-eylem tasarımı. simulate.py bu akışı yerelde çalıştırır; gerçek Make/Zapier hesabına bağlı değildir.",
+  "senaryolar": [
+    {"ad": "Otomatik blog paylaşımı", "tetikleyici": {"tur": "dosya", "olay": "content/blog.md eklendi/değişti"},
+     "eylemler": ["İçerik kontrol katmanını çalıştır", "GEÇTİ ise web kuyruğuna al", "Sosyal medya duyurusunu zamanla"]},
+    {"ad": "Sosyal medya zamanlaması", "tetikleyici": {"tur": "kontrol", "olay": "gönderi kontrolü GEÇTİ"},
+     "eylemler": ["Takvimdeki planlanan saatle kanal kuyruğuna ekle (Buffer/Meta API yerine out/queue/)"]},
+    {"ad": "İçerik onay bildirimi", "tetikleyici": {"tur": "kontrol", "olay": "karar = ONAY_GEREKLİ veya RED"},
+     "eylemler": ["Bulguları içeren bildirim metnini out/notifications/ altına yaz (Slack kanalı yerine)"]},
+    {"ad": "Haftalık rapor", "tetikleyici": {"tur": "zaman", "cron": "0 9 * * 5", "aciklama": "Her Cuma 09:00"},
+     "eylemler": ["data/ altındaki performans CSV'sini oku", "Özet ve grafik üret", "out/reports/ altına yaz"]},
+    {"ad": "Görsel yeniden boyutlama", "tetikleyici": {"tur": "dosya", "olay": "yeni görsel eklendi"},
+     "eylemler": ["1080x1080, 1080x1350, 1080x1920 ve 1200x628 sürümlerini üret (tools/resize.py)"]}
+  ]
+}

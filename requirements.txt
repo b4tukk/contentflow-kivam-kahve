@@ -1,0 +1,9 @@
+openpyxl
+matplotlib
+pytest
+edge-tts
+imageio-ffmpeg
+pillow
+numpy
+python-docx
+python-pptx

@@ -1,0 +1,28 @@
+{
+  "marka": "Kıvam Kahve",
+  "slogan": "Acele etme, tadına var.",
+  "kurgusal": true,
+  "degerler": ["Sabır", "Şeffaflık", "Paylaşım"],
+  "palet": {"Espresso": "#3B2A20", "Krema": "#E8D5B7", "Bakır": "#C8693A", "Adaçayı": "#7A8B6F", "Krem Beyazı": "#FAF6EF"},
+  "ses": {
+    "tercih_edilen_sozcukler": ["kıvam", "demle", "yavaş", "mola", "tadına var", "fincan", "sabır"],
+    "kacinilan_sozcukler": ["acele", "hızlı çözüm", "hack", "şok", "kaçırma", "en iyi", "mucize", "kusursuz", "inanılmaz", "efsane"],
+    "izinli_ifadeler": ["Acele etme"],
+    "abartili_sozcukler": ["en iyi", "mucize", "kusursuz", "inanılmaz", "efsane", "şok"],
+    "max_unlem": 1,
+    "max_ortalama_cumle_kelime": 22,
+    "hitap": "sen",
+    "hitap_istisnalari": {"linkedin": "siz"}
+  },
+  "telif": {
+    "stil_taklidi_kaliplari": ["tarzında", "gibi çiz", "style of", "in the style", "gibi görünsün"],
+    "yasakli_isimler": ["Starbucks", "Kahve Dünyası", "Espresso Lab", "Nescafé", "Nespresso", "Pixar", "Disney", "Ghibli", "Picasso", "Van Gogh"],
+    "gerekli_varlik_alanlari": ["kaynak", "lisans", "uretim_yontemi", "yapay_zeka_notu"]
+  },
+  "dogrulama": {
+    "kaynak_gerektiren_kaliplar": ["araştırmalar", "araştırmaya göre", "bilimsel olarak", "kanıtlandı", "uzmanlar", "istatistik", "yüzde"],
+    "saglik_iddiasi_kaliplari": ["zayıflat", "tedavi", "hastalık", "kanseri", "kalp", "bağışıklık", "sağlıklı", "detoks"],
+    "teknik_deger_kaliplari": ["\\d+\\s?°\\s?C", "\\b1\\s?:\\s?\\d{2}\\b", "\\d+[,.]?\\d*\\s?(dakika|dk|saniye|sn|gram|g)\\b"]
+  },
+  "kanal_limitleri": {"x": 280, "instagram": 2200, "linkedin": 3000}
+}
