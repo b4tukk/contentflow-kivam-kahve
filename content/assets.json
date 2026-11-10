@@ -1,37 +1,37 @@
 [
   {
     "dosya": "gorsel_1_marka_karti.png",
-    "kaynak": "Python (Pillow) ile kodla çizildi",
-    "lisans": "Özgün; yazı tipleri sistem fontları (Georgia, Segoe UI)",
-    "uretim_yontemi": "tools/generate_media.py",
-    "yapay_zeka_notu": "Üretken görsel YZ kullanılmadı; çizimi kod üretti"
+    "kaynak": "Üretken YZ: Cloudflare Workers AI, stable-diffusion-xl-lightning; marka metni Python ile bindirildi",
+    "lisans": "FLUX.1-schnell: Apache-2.0; SDXL-Lightning: CreativeML OpenRAIL++-M (model kartlarına göre)",
+    "uretim_yontemi": "tools/generate_ai_images.py + tools/build_ai_assets.py",
+    "yapay_zeka_notu": "Görsel üretken yapay zeka çıktısıdır (istem: ai_adaylar/prompts.json); sanatçı/marka adı kullanılmadı"
   },
   {
     "dosya": "gorsel_2_demleme_orani.png",
-    "kaynak": "Python (Pillow) ile kodla çizildi",
-    "lisans": "Özgün; yazı tipleri sistem fontları (Georgia, Segoe UI)",
-    "uretim_yontemi": "tools/generate_media.py",
-    "yapay_zeka_notu": "Üretken görsel YZ kullanılmadı; çizimi kod üretti"
+    "kaynak": "Üretken YZ: Cloudflare Workers AI, flux-1-schnell; metin Python ile bindirildi",
+    "lisans": "FLUX.1-schnell: Apache-2.0; SDXL-Lightning: CreativeML OpenRAIL++-M (model kartlarına göre)",
+    "uretim_yontemi": "tools/generate_ai_images.py + tools/build_ai_assets.py",
+    "yapay_zeka_notu": "Görsel üretken yapay zeka çıktısıdır; sanatçı/marka adı kullanılmadı"
   },
   {
     "dosya": "gorsel_3_cifliktten_fincana.png",
-    "kaynak": "Python (Pillow) ile kodla çizildi",
-    "lisans": "Özgün; yazı tipleri sistem fontları (Georgia, Segoe UI)",
-    "uretim_yontemi": "tools/generate_media.py",
-    "yapay_zeka_notu": "Üretken görsel YZ kullanılmadı; çizimi kod üretti"
+    "kaynak": "Üretken YZ: Cloudflare Workers AI, stable-diffusion-xl-lightning; metin Python ile bindirildi",
+    "lisans": "FLUX.1-schnell: Apache-2.0; SDXL-Lightning: CreativeML OpenRAIL++-M (model kartlarına göre)",
+    "uretim_yontemi": "tools/generate_ai_images.py + tools/build_ai_assets.py",
+    "yapay_zeka_notu": "Görsel üretken yapay zeka çıktısıdır; sanatçı/marka adı kullanılmadı"
   },
   {
     "dosya": "video_tanitim.mp4",
-    "kaynak": "Python + ffmpeg (imageio-ffmpeg)",
-    "lisans": "Özgün; müzik yok",
-    "uretim_yontemi": "tools/generate_media.py",
-    "yapay_zeka_notu": "Kare kare kodla çizildi; seslendirme yapay ses"
+    "kaynak": "Üretken YZ görsellerinden kurulmuş video (yakınlaşma hareketi ve geçişler Python/ffmpeg ile); altyazı ve yapay seslendirme",
+    "lisans": "FLUX.1-schnell: Apache-2.0; SDXL-Lightning: CreativeML OpenRAIL++-M (model kartlarına göre); müzik yok",
+    "uretim_yontemi": "tools/build_ai_assets.py",
+    "yapay_zeka_notu": "Metinden-videoya modeli kullanılmadı; sahneler üretken görseldir, hareket koddan gelir"
   },
   {
     "dosya": "seslendirme.mp3",
     "kaynak": "edge-tts (Microsoft Edge Türkçe nöral ses, tr-TR-EmelNeural)",
-    "lisans": "Ticari kullanım koşulları doğrulanmalı",
-    "uretim_yontemi": "tools/generate_media.py",
+    "lisans": "Microsoft Edge okuma servisi; ticari kullanım koşulları yayından önce kontrol edilmelidir",
+    "uretim_yontemi": "tools/build_ai_assets.py",
     "yapay_zeka_notu": "Yapay ses; gerçek kişi sesi taklit edilmedi"
   }
 ]

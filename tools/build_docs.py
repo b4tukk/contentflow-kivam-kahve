@@ -201,7 +201,7 @@ for i, f in enumerate(("gorsel_1_marka_karti.png", "gorsel_2_demleme_orani.png",
     from PIL import Image
     w_, h_ = Image.open(f"{S}/{f}").size; k = min(3.9 / w_, 5.3 / h_); ww, hh = w_ * k, h_ * k
     s.shapes.add_picture(f"{S}/{f}", Inches(.6 + i * 4.2 + (3.9 - ww) / 2), Inches(1.5), width=Inches(ww), height=Inches(hh))
-text(s, .6, 6.9, 12, .4, ["Görseller Python (Pillow) ile marka paletine uygun olarak çizilmiştir."], 11, SAGE, False)
+text(s, .6, 6.9, 12, .4, ["Görseller üretken yapay zeka modelleriyle (Cloudflare Workers AI: FLUX.1-schnell, SDXL-Lightning) üretildi; başlıklar Python ile bindirildi."], 11, SAGE, False)
 
 s = slide("Örnek içerik 4–5 — Video ve seslendirme")
 for i in range(1, 5): s.shapes.add_picture(f"{S}/video_kare_{i}.png", Inches(.6 + (i - 1) * 2.3), Inches(1.5), height=Inches(4.0))

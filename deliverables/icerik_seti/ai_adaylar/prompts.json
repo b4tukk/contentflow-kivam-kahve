@@ -1,0 +1,146 @@
+{
+ "gorsel1_marka_karti_1.png": {
+  "istem": "Minimal flat vector illustration of a pour-over coffee dripper on a small glass carafe with three soft steam lines, warm earthy palette: dark espresso brown, cream background, copper orange dripper, sage green steam, lots of empty space at the bottom, calm cozy mood, vertical poster composition, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   832,
+   1024
+  ]
+ },
+ "gorsel1_marka_karti_2.png": {
+  "istem": "Minimal flat vector illustration of a pour-over coffee dripper on a small glass carafe with three soft steam lines, warm earthy palette: dark espresso brown, cream background, copper orange dripper, sage green steam, lots of empty space at the bottom, calm cozy mood, vertical poster composition, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   832,
+   1024
+  ]
+ },
+ "gorsel1_marka_karti_3.png": {
+  "istem": "Minimal flat vector illustration of a pour-over coffee dripper on a small glass carafe with three soft steam lines, warm earthy palette: dark espresso brown, cream background, copper orange dripper, sage green steam, lots of empty space at the bottom, calm cozy mood, vertical poster composition, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   832,
+   1024
+  ]
+ },
+ "gorsel2_demleme_orani_1.png": {
+  "istem": "Top-down flat vector illustration of a small kitchen scale with a coffee dripper and a measuring jug, dark espresso brown background, cream and copper orange accents, clean geometric shapes, minimal, empty space at the top, square composition, no text, no numbers, no people",
+  "model": "flux-1-schnell",
+  "boyut": [
+   1024,
+   1024
+  ]
+ },
+ "gorsel2_demleme_orani_2.png": {
+  "istem": "Top-down flat vector illustration of a small kitchen scale with a coffee dripper and a measuring jug, dark espresso brown background, cream and copper orange accents, clean geometric shapes, minimal, empty space at the top, square composition, no text, no numbers, no people",
+  "model": "flux-1-schnell",
+  "boyut": [
+   1024,
+   1024
+  ]
+ },
+ "gorsel2_demleme_orani_3.png": {
+  "istem": "Top-down flat vector illustration of a small kitchen scale with a coffee dripper and a measuring jug, dark espresso brown background, cream and copper orange accents, clean geometric shapes, minimal, empty space at the top, square composition, no text, no numbers, no people",
+  "model": "flux-1-schnell",
+  "boyut": [
+   1024,
+   1024
+  ]
+ },
+ "gorsel3_cifliktten_fincana_1.png": {
+  "istem": "Vertical flat vector illustration of the coffee journey from farm to cup: coffee cherry branch, roasting drum, pour-over brewing, two cups on a table, connected by a thin sage green line, cream beige background, espresso brown and copper orange accents, minimal, calm, generous empty space at the top, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   576,
+   1024
+  ]
+ },
+ "gorsel3_cifliktten_fincana_2.png": {
+  "istem": "Vertical flat vector illustration of the coffee journey from farm to cup: coffee cherry branch, roasting drum, pour-over brewing, two cups on a table, connected by a thin sage green line, cream beige background, espresso brown and copper orange accents, minimal, calm, generous empty space at the top, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   576,
+   1024
+  ]
+ },
+ "gorsel3_cifliktten_fincana_3.png": {
+  "istem": "Vertical flat vector illustration of the coffee journey from farm to cup: coffee cherry branch, roasting drum, pour-over brewing, two cups on a table, connected by a thin sage green line, cream beige background, espresso brown and copper orange accents, minimal, calm, generous empty space at the top, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   576,
+   1024
+  ]
+ },
+ "video_sahne1_1.png": {
+  "istem": "Flat vector illustration, close view of a pour-over coffee dripper with water slowly dripping into a glass carafe, soft steam, warm palette of espresso brown, cream and copper orange, minimal background, vertical composition, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   576,
+   1024
+  ]
+ },
+ "video_sahne1_2.png": {
+  "istem": "Flat vector illustration, close view of a pour-over coffee dripper with water slowly dripping into a glass carafe, soft steam, warm palette of espresso brown, cream and copper orange, minimal background, vertical composition, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   576,
+   1024
+  ]
+ },
+ "video_sahne1_3.png": {
+  "istem": "Flat vector illustration, close view of a pour-over coffee dripper with water slowly dripping into a glass carafe, soft steam, warm palette of espresso brown, cream and copper orange, minimal background, vertical composition, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   576,
+   1024
+  ]
+ },
+ "video_sahne2_1.png": {
+  "istem": "Flat vector illustration of a ceramic cup of coffee on a wooden table next to a small kitchen scale and a gooseneck kettle, morning light, warm palette of espresso brown, cream and copper orange, minimal, vertical composition, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   576,
+   1024
+  ]
+ },
+ "video_sahne2_2.png": {
+  "istem": "Flat vector illustration of a ceramic cup of coffee on a wooden table next to a small kitchen scale and a gooseneck kettle, morning light, warm palette of espresso brown, cream and copper orange, minimal, vertical composition, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   576,
+   1024
+  ]
+ },
+ "video_sahne2_3.png": {
+  "istem": "Flat vector illustration of a ceramic cup of coffee on a wooden table next to a small kitchen scale and a gooseneck kettle, morning light, warm palette of espresso brown, cream and copper orange, minimal, vertical composition, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   576,
+   1024
+  ]
+ },
+ "video_sahne3_1.png": {
+  "istem": "Flat vector illustration of two coffee cups and a small plant on a window sill, calm morning mood, warm palette of espresso brown, cream and sage green, minimal, vertical composition, empty space at the top, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   576,
+   1024
+  ]
+ },
+ "video_sahne3_2.png": {
+  "istem": "Flat vector illustration of two coffee cups and a small plant on a window sill, calm morning mood, warm palette of espresso brown, cream and sage green, minimal, vertical composition, empty space at the top, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   576,
+   1024
+  ]
+ },
+ "video_sahne3_3.png": {
+  "istem": "Flat vector illustration of two coffee cups and a small plant on a window sill, calm morning mood, warm palette of espresso brown, cream and sage green, minimal, vertical composition, empty space at the top, no text, no people",
+  "model": "stable-diffusion-xl-lightning",
+  "boyut": [
+   576,
+   1024
+  ]
+ }
+}

@@ -25,7 +25,8 @@ pytest                                                # 37 test
 - **Performans raporu** (`contentflow/report.py`): etkileşim oranı, kanal özeti, grafik. **Veri SİMÜLEDİR** (`data/performans_simule.csv`, `simule=true`); gerçek yayın sonucu değildir ve raporlarda uyarı olarak basılır.
 
 ## Dürüstlük notları
-- **Görseller ve video üretken yapay zeka ile değil**, Python (Pillow, ffmpeg) ile kodla çizildi (`tools/generate_media.py`). Eğitmen üretken görsel/video aracı bekliyorsa prompt kütüphanesindeki istemlerle yeniden üretilmelidir.
+- **Görseller üretken yapay zeka modelleriyle üretildi** (Cloudflare Workers AI: FLUX.1-schnell ve SDXL-Lightning; `tools/generate_ai_images.py`). Her istem için 3 aday üretilip biri seçildi; başlık ve sloganlar Türkçe karakter bozulmasın diye modele değil Python ile bindirildi. Kodla çizilmiş ilk sürümler `deliverables/icerik_seti/marka_sablonlari/` içinde kaldı.
+- **Video, üretken görsellerden kuruldu** (yakınlaşma hareketi, geçişler ve senkron altyazı Python/ffmpeg ile; `tools/build_ai_assets.py`). Metinden-videoya modeli kullanılmadı, çünkü ücretsiz bir yol bulunamadı.
 - **Seslendirme** Microsoft Edge'in Türkçe yapay sesidir (edge-tts); ticari kullanım koşulları doğrulanmalıdır.
 - **Kontrol aracı** demleme değerlerini (1:16, 90–96 °C, süreler) kaynaksız teknik değer olarak `ONAY_GEREKLİ` işaretler. Bu değerler proje sahibi tarafından 9 Kasım 2026'da onaylandı; onay `brand/onaylar.json` içinde ad, tarih ve kapsamla kayıtlıdır. Ses dosyasının lisans uyarısı onaylanmamıştır ve açıktır.
 - Rakip bilgileri genel konumlandırmadır; güncel kaynakla doğrulanmalıdır. Marka kurgusaldır.
