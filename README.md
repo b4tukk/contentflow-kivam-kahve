@@ -2,6 +2,8 @@
 
 Yapay Zeka ile İçerik Üretimi Eğitimi final projesi. Kurgusal bir kahve markası (**Kıvam Kahve**) için marka stratejisi, 7 günlük içerik takvimi ve uçtan uca bir içerik seti üretildi; üzerine zorunlu kapsamın ötesinde **çalışan bir kontrol, otomasyon ve raporlama aracı** eklendi.
 
+**Canva sunumu (teslim linki):** https://canva.link/nifva3sm87iur5h
+
 ## Teslim edilenler (`deliverables/`)
 | Teslim | Dosya |
 |---|---|
