@@ -1,5 +1,34 @@
 {
-  "blog.md": {"onaylayan": "Batuhan Korkmaz", "tarih": "2026-11-09", "kapsam": ["kaynak_dogrulama"], "not": "Demleme değerleri (su sıcaklığı 90–96 °C ve ilgili aralıklar) proje sahibi tarafından onaylandı."},
-  "01_instagram.md": {"onaylayan": "Batuhan Korkmaz", "tarih": "2026-11-09", "kapsam": ["kaynak_dogrulama"], "not": "1:16 oranı proje sahibi tarafından onaylandı."},
-  "02_x.md": {"onaylayan": "Batuhan Korkmaz", "tarih": "2026-11-09", "kapsam": ["kaynak_dogrulama"], "not": "1:15 ve 1:17 oranları proje sahibi tarafından onaylandı."}
+  "blog.md": {
+    "onaylayan": "Batuhan Korkmaz",
+    "tarih": "2026-11-09",
+    "kapsam": [
+      "kaynak_dogrulama"
+    ],
+    "not": "Demleme değerleri (su sıcaklığı 90–96 °C ve ilgili aralıklar) proje sahibi tarafından onaylandı."
+  },
+  "01_instagram.md": {
+    "onaylayan": "Batuhan Korkmaz",
+    "tarih": "2026-11-09",
+    "kapsam": [
+      "kaynak_dogrulama"
+    ],
+    "not": "1:16 oranı proje sahibi tarafından onaylandı."
+  },
+  "02_x.md": {
+    "onaylayan": "Batuhan Korkmaz",
+    "tarih": "2026-11-09",
+    "kapsam": [
+      "kaynak_dogrulama"
+    ],
+    "not": "1:15 ve 1:17 oranları proje sahibi tarafından onaylandı."
+  },
+  "03_linkedin.md": {
+    "onaylayan": "Batuhan Korkmaz",
+    "tarih": "2026-11-10",
+    "kapsam": [
+      "kaynak_dogrulama"
+    ],
+    "not": "'5 dakika' mola süresi ifadesi proje sahibi tarafından onaylandı."
+  }
 }
