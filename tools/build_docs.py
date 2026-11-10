@@ -79,6 +79,7 @@ para(d, f"**Tercih edilen sözcükler:** {', '.join(VOCAB)}.  **Kaçınılan:** 
 para(d, f"**Örnek cümle:** \"Bu hafta bir fincanı ölçerek demle, sonra bize tadını anlat.\"", after=2)
 d.add_heading("5. İçerik sütunları", 2)
 table(d, ["Sütun", "İçerik", "Hedef kitleyle bağı"], PILLARS, [3.6, 6.4, 6.6], 8.5)
+para(d, "Kod ve içerik deposu (GitHub): https://github.com/b4tukk/contentflow-kivam-kahve   |   Canva sunumu: https://canva.link/nifva3sm87iur5h", after=0).runs[0].font.size = Pt(8.5)
 d.save(f"{O}/1_Marka_Stratejisi_Dokumani.docx")
 
 # =============== 2) İÇERİK TAKVİMİ (Excel) ===============
@@ -128,6 +129,7 @@ table(d, AI_HEAD, AI, [3.6, 3.2, 4.6, 6.4], 8.5)
 d.add_heading("Prompt Kütüphanesi", 1)
 for t_, p_ in PROMPTS:
     para(d, f"**{t_}:** {p_}", after=3)
+para(d, "GitHub: https://github.com/b4tukk/contentflow-kivam-kahve   |   Canva sunumu: https://canva.link/nifva3sm87iur5h")
 d.save(f"{O}/4_Kontrol_ve_AI_Kullanim_Raporu.docx")
 
 # =============== 5) TEK SUNUM (Canva'ya aktarılabilir) ===============
@@ -222,5 +224,6 @@ s = slide("Otomasyon ve performans raporu (isteğe bağlı pratikler)")
 text(s, .6, 1.5, 6, 5, ["Tetikleyici → eylem akışı: blog yayını → kontrol → kuyruk; ONAY_GEREKLİ → bildirim; Cuma 09:00 → haftalık rapor", "Gerçek Make/Zapier hesabına bağlı değildir; automation/scenarios.json tasarımı ve contentflow/automation.py yerel simülasyonu vardır", "Performans raporu SİMÜLE veriyle gösterilmiştir; gerçek sonuç değildir"], 14)
 o = rep.ozet(rep.oku(REPO / "data" / "performans_simule.csv")); rep.grafik(o, REPO / "deliverables" / "icerik_seti" / "performans_simule.png")
 s.shapes.add_picture(str(REPO / "deliverables" / "icerik_seti" / "performans_simule.png"), Inches(6.8), Inches(1.6), width=Inches(6))
+text(s, .6, 6.4, 12, .6, ["GitHub: https://github.com/b4tukk/contentflow-kivam-kahve"], 13, SAGE, False)
 prs.save(f"{O}/ContentFlow_Kivam_Kahve_Teslim_Sunumu.pptx")
 print("ok")
